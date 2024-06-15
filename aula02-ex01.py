@@ -16,10 +16,9 @@ print(f'Sobrenome: {sobrenome}')
 
 #Caso o nome tenha mais espaços
 nome_completo = "Paulo Ricardo Oliveira Martins"
-espaco = nome_completo.split()
-primeiro_nome= espaco[0]
-segundo_nome= espaco[1]
-sobrenome_completo = espaco[-1]
-print(primeiro_nome, segundo_nome)
+nomes = nome_completo.split()
+primeiro_nome= nomes[0]
+sobrenome_completo = nomes[-1]
+print(primeiro_nome, sobrenome_completo)
 
 
